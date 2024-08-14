@@ -1,0 +1,266 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navDiv {
+  border: solid;
+  border-color: gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+}
+
+.navButton {
+  border: solid;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.resultContainer {
+  color: gray;
+  font-family: san-serif;
+  display: flex;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 10px;
+}
+
+.txtResult {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  align-text: center;
+}
+
+.tecContainer {
+}
+
+.tecTitle {
+  font-family: san-serif;
+  weight: bold;
+}
+
+.tecRow {
+}
+
+.tecButton {
+  width: 125px;
+  border: solid;
+  border-radius: 15px;
+  margin-left: 15px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.tecButton:focus {
+  background-color: gray;
+}
+
+.formContainer {
+}
+
+.formTitle {
+  font-family: san-serif;
+  weight: bold;
+}
+
+.formRow {
+}
+
+.formButton {
+  width: 150px;
+  border: solid;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.formButton:focus {
+  background-color: gray;
+}
+
+.containerMods {
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.modsButton {
+  border: solid;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  justift-content: left;
+}
+
+.modsButton:focus {
+  background-color: gray;
+}
+
+.effectsContainer {
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 15px;
+}
+
+.tableHead {
+  font-size: 25px;
+  font-family: san-serif;
+}
+
+.effectButton {
+  border: solid;
+  width: 65px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.effectButton:focus {
+  background-color: gray;
+}
+
+.effectTxt {
+  border: solid;
+  border-bottom: none;
+  width: 80vw;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.guideTxt {
+  margin-top: 15px;
+  border: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+}
+
+.guideTitle {
+  font-family: san-serif;
+}
+
+.guideContent {
+  text-align: left;
+}
+
+.guideContenttxt {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.dangerLvl {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.expButton {
+  border: solid;
+  width: 120px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.expButton:focus {
+  background-color: gray;
+}
+
+.expResContainer {
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.ageDiv {
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.ageCheck {
+  width: 200px;
+}
+
+.twilightRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.twilightComponent {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.twilightInput {
+  width: 150px;
+}
+
+.twilightButton {
+  border: solid;
+  width: 150px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 15px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.twilightDiv {
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.rollExpButton {
+  border: solid;
+  width: 150px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 15px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
